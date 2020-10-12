@@ -1,0 +1,185 @@
+body {
+  position: relative;
+  background-color: #333333;
+  color: #DDDDDD;
+  text-align: center;
+  font-size: 180%;
+  font-family: 'Open+Sans', sans-serif;
+}
+
+h1 {
+  padding-bottom: 3%;
+  color: #885522;
+}
+
+table {
+  width: 100%;
+  margin: auto;
+}
+
+th, td {
+  text-align: center;
+  padding: 1% 1%;
+}
+
+img {
+  max-width: 90%;
+  margin:auto;
+}
+
+tr.highlight {
+  background-color: #444444;
+}
+
+ul {
+  list-style: none;
+}
+
+.odd .left, .even .right {
+  background-color: #303030;
+}
+
+button.navbar-right {
+  margin-right: 15px;
+}
+
+div.content {
+  padding: 50px 0px;
+}
+
+div.container {
+  display: flex;
+  min-width: 80%;
+}
+
+div.left {
+  display: inline-block;
+  width: 25%;
+  text-align: right;
+  padding-right: 1%;
+  padding-top: 70px;
+  min-width:250px;
+}
+
+div.right {
+  display: inline-block;
+  width: 75%;
+  padding: 3%;
+  padding-top: 70px;
+}
+
+div.bullet {
+  font-size: 1.4em;
+  text-align:left;
+  display: flex;
+  align-items: center;
+}
+
+div.employer {
+  padding-top: 2%;
+}
+
+p.intro {
+  font-size: 1.4em;
+}
+
+p.description {
+  width: 60%;
+  margin: auto;
+}
+
+.bullet img {
+  background-color: #777777;
+  border-radius: 25px;
+  height:  100px;
+  margin: 2%;
+  padding: 5px;
+  width: 100px;
+  display: inline;
+  flex: 0 0 100px;
+}
+
+p.dates,
+ul.title {
+  display: inline-block;
+  width: 45%;
+  padding: 2%;
+  vertical-align:middle;
+  font-style: italic;
+}
+
+p.role {
+  font-size: 1.2em;
+  padding: 1%;
+}
+
+.employer h2 {
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #885522;
+}
+
+h1.title {
+  font-size: 5em;
+}
+
+img.icon {
+  height: 180px;
+  width: 180px;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding-top: 70px;
+  }
+
+  div.content {
+    padding: 0px;
+  }
+
+  div.container {
+    display: block;
+  }
+
+  div.left {
+    display: block;
+    text-align: center;
+    padding: 3%;
+    width: 100%;
+    background-color: #303030;
+  }
+
+  img.icon {
+    display: none;
+  }
+
+  div.right {
+    display: block;
+    padding: 3%;
+    width:100%;
+  }
+
+  .even .right {
+    background-color: #333333;
+  }
+
+  h1.title {
+    font-size: 2em;
+  }
+
+  .bullet img {
+    border-radius: 15px;
+    height:  60px;
+    width: 60px;
+    flex: 0 0 60px;
+  }
+
+  .bullet p {
+    margin: 5% 0px;
+  }
+
+  #qualifications .right {
+    overflow-x: auto;
+  }
+}
